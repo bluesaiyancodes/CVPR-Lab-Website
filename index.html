@@ -11,7 +11,8 @@
     <meta content="" name="keywords">
 
     <!-- Font Awesome-->
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a5b1885f61.js" crossorigin="anonymous"></script>
 
@@ -23,6 +24,10 @@
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
         rel="stylesheet">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -39,16 +44,17 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex flex-column align-items-center">
+    <header id="header" class="fixed-top flex-column align-items-center">
         <!-- The video -->
         <div class="my-3 container d-flex align-items-center justify-content-between">
 
             <div class="logo">
                 <h1 class="text-light">
-                    <a href="index.html"><img src="assets/img/CVPR Logo.png" class="img-fluid animated" width="40px" alt=""></a>
+                    <a href="index.html"><img src="assets/img/CVPR Logo.png" class="img-fluid animated" width="40px"
+                            alt=""></a>
                     <a href="index.html"><span>CVPR LAB</span></a>
                 </h1>
-            </div>  
+            </div>
 
             <nav id="navbar" class="navbar">
                 <ul>
@@ -60,7 +66,8 @@
                     <!-- <li><a class="nav-link scrollto" href="#team">Testimonials</a></li> -->
                     <li><a class="nav-link scrollto" href="#clients">Papers</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                    <li><a class="nav-link scrollto" href="index_kr.html">&emsp;&emsp;<img src="assets/img/kor.png" width="30px" height="30px"></a></li>
+                    <li><a class="nav-link scrollto" href="index_kr.html">&emsp;&emsp;<img src="assets/img/kor.png"
+                                width="30px" height="30px"></a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -75,31 +82,33 @@
             </div>
             -->
         </div>
-    </header><!-- End Header -->
+    </header>
+    <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="d-flex align-items-center justify-content-center">
 
         <!--   TODO: Add Video-->
-        <video autoplay muted loop id="myVideo">
+        <video autoplay muted loop id="myVideo" width="100%">
             <source src="assets/img/video.mp4" type="video/mp4">
-          </video>
+        </video>
 
-        <div class="container">
+        <div class="container hero-container">
             <div class="row gy-4">
-                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <div>
+                <div class="title-content col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <!-- <div>
                         <span>Laboratory & Research</span>
-                    </div>
+                    </div> -->
                     <h1>What We See is What We Learn</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <div>
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+                    <div class="connect-button">
                         <a href="#about" class="btn-get-started scrollto">Let's Connect</a>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-1 hero-img">
+                <div class="vertical-bar col-lg-1 order-1 order-lg-1"></div>
+                <div class="col-lg-5 order-1 order-lg-1 hero-img">
                     <img src="assets/img/logo-animated_black.gif" class="img-fluid animated" alt="" data-aos="zoom-in">
                 </div>
             </div>
@@ -122,22 +131,24 @@
                         <div class="d-flex flex-wrap align-items-center">
                             <img src="assets/img/about-img.png" class="img-fluid" alt="" data-aos="zoom-in">
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-6 pt-5 pt-lg-0">
                         <h3 data-aos="fade-up">Computer Vision and Pattern Recognition Lab</h3>
                         <p data-aos="fade-up" data-aos-delay="100">
-                            The CVPR lab is Machine Learning Laboratory under Prof. Jaepil Ko  of Department of Computer Engineering, College of Engineering, Kumoh National Institute of Technology.
+                            The CVPR lab is Machine Learning Laboratory under Prof. Jaepil Ko of Department of Computer
+                            Engineering, College of Engineering, Kumoh National Institute of Technology.
                         </p>
                         <div class="row">
 
-                            
-                            
+
+
                             <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <i class="fa-regular fa-folder-open fa-1x"></i>
-                                
+
                                 <h4>Our Repository</h4>
-                                <p>Our GitHub repository showcasing the projects that our members have worked on. Feel free to fork and raise an issue.
+                                <p>Our GitHub repository showcasing the projects that our members have worked on. Feel
+                                    free to fork and raise an issue.
                                 </p>
                             </div>
                             <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -201,7 +212,7 @@
                                 molestias possimus nihil?</p>
                         </div>
                     </div>
-                    
+
 
                 </div>
 
@@ -665,8 +676,8 @@
 
             </div>
         </section>
-    
-        
+
+
         <!-- End Clients Section -->
 
         <!-- ======= Contact Us Section ======= -->
@@ -685,7 +696,8 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>136 Digital Building, Kumoh National Institute of Technology, 61 Daehak-ro, Gumi, Gyeongbuk 39177, Korea</p>
+                                <p>136 Digital Building, Kumoh National Institute of Technology, 61 Daehak-ro, Gumi,
+                                    Gyeongbuk 39177, Korea</p>
                             </div>
 
                             <div class="email">
@@ -820,7 +832,9 @@
         <div class="row justify-content-center">
             <div class="col-xs-12" style="height:50px;"></div>
             <div class="copyright">
-                <i class="fas fa-code"></i>  with  <i class="fas fa-heart"> </i>  by  <strong><span class="bg-dark">&nbsp;Bishal and Pravakar&nbsp;</span></strong>  using  <i class="fa-brands fa-bootstrap fa-lg"></i>
+                <i class="fas fa-code"></i> with <i class="fas fa-heart"> </i> by <strong><span
+                        class="bg-dark">&nbsp;Bishal and Pravakar&nbsp;</span></strong> using <i
+                    class="fa-brands fa-bootstrap fa-lg"></i>
             </div>
         </div>
     </footer><!-- End Footer -->
