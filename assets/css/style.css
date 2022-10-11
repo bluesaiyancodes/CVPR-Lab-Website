@@ -24,6 +24,7 @@ h3,
 h4,
 h5,
 h6,
+p,
 .font-primary {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -983,6 +984,8 @@ section {
 	background: #343a40;
 	position: relative;
 	overflow: hidden;
+	height: 300px;
+	border-radius: 5px;
 }
 
 .team .member .member-info {
@@ -1063,7 +1066,7 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients .clients-slider .swiper-slide img {
+/* .clients .clients-slider .swiper-slide img {
 	opacity: 0.5;
 	transition: 0.3s;
 }
@@ -1087,6 +1090,28 @@ section {
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
 	background-color: #00d4ff;
+} */
+
+#clients .card{
+	border: none;
+	padding: 30px 30px 5px 30px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 40px 0;
+	background: #fff;
+	box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+	transition: all 0.3s ease-in-out;
+	border-radius: 15px;
+	border-bottom: 3px solid #fff;
+}
+
+#clients .card:hover{
+	transform: translateY(-5px);
+	border-color: #00d4ff;
+}
+
+#clients .card .card-body{
+	padding: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1307,8 +1332,10 @@ section {
 
 #footer .footer-newsletter form input[type=email] {
 	border: 0;
-	padding: 4px 4px;
+	box-shadow: none;
 	width: calc(100% - 100px);
+	height: 100%;
+	margin: 0;
 }
 
 #footer .footer-newsletter form input[type=submit] {
