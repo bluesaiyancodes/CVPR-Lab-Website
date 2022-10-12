@@ -378,6 +378,11 @@ p,
 	margin: 0 0 0 0;
 }
 
+#hero video{
+	min-width: 100%;
+	min-height: 100%;
+}
+
 #hero h1 {
 	margin: 0;
 	font-size: 48px;
