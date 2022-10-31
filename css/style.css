@@ -1196,7 +1196,6 @@ section {
 	transition: all 0.3s ease-in-out;
 	border-radius: 15px;
 	border-bottom: 3px solid #fff;
-	
 }
 
 #clients .card:hover{
@@ -1582,5 +1581,4 @@ section {
 		padding: 3px 0;
 		align-items: center;
 	}
-}
 }
