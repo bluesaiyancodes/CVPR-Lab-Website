@@ -11,7 +11,6 @@
   });
 
   $(document).on('click', '#seeMore', function () {
-    alert();
     $('#morePaper').slideToggle("slow");
     $('.t-t-change').text( $('.t-t-change').text() == 'Show More' ? "Show Less" : "Show More");
   });
