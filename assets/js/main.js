@@ -10,6 +10,11 @@
     }
   });
 
+  $('#seeMore').click(function(){
+    $('#morePaper').slideToggle('slow');
+    $('.t-t-change').text( $('.t-t-change').text() == 'Show Less' ? "Show More" : "Show Less");
+  });
+
   /**
    * Easy selector helper function
    */
