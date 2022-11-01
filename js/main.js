@@ -15,6 +15,12 @@
     $('.t-t-change').text( $('.t-t-change').text() == 'Show More' ? "Show Less" : "Show More");
   });
 
+  var seeMoreDiv =document.getElementById("#morePaper")
+
+  function clickSeeMore(i) {
+  seeMoreDiv.classList.toggle('hide')  
+}
+
   /**
    * Easy selector helper function
    */
