@@ -21,6 +21,8 @@
   seeMoreDiv.classList.toggle('hide')  
 }
 
+
+
   /**
    * Easy selector helper function
    */
