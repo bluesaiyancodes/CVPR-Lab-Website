@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar {
+  display: inline-flex;
+  justify-content: center;
+  height: 40px;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(55, 66, 77, 0.25);
+  list-style: none;
+}
+
+.toolbarItem {
+  width: 40px;
+  margin: 0 4px;
+}
+
+.toolbarLink {
+  display: block;
+}
+
+.toolbarImg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
